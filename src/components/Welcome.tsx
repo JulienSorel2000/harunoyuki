@@ -42,8 +42,8 @@ export default function Welcome({ connected }: { connected: boolean }) {
             fontFamily: "'Noto Sans JP', sans-serif",
             lineHeight: 1.8,
           }}>
-            まず右上に Anthropic API Key を入力してください。<br />
-            <span style={{ color: 'var(--paper)', fontWeight: 400 }}>aistudio.google.com</span> で取得できます。
+            まず右上に Groq API Key を入力してください。<br />
+            <span style={{ color: 'var(--paper)', fontWeight: 400 }}>console.groq.com</span> で取得できます。
           </div>
         )}
       </div>

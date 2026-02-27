@@ -37,7 +37,7 @@ export default function Header({ connected, onConnect }: Props) {
         <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
           <input
             type="password"
-            placeholder="Gemini API Key を入力"
+            placeholder="Groq API Key を入力"
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={e => e.key === 'Enter' && input.trim() && onConnect(input.trim())}
